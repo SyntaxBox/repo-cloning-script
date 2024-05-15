@@ -27,7 +27,7 @@ if [ ! -d "$DIR" ]; then
 fi
 
 # Get list of repositories
-repositories=$(gh repo list --json nameWithOwner 2>/dev/null)
+repositories=$(gh repo list --limit=1000 --json nameWithOwner 2>/dev/null)
 
 # Check if repositories are available
 if [ -z "$repositories" ]; then

@@ -1,6 +1,6 @@
 # Repository Cloning Script
 
-This script allows you to clone multiple GitHub repositories from the command line using GitHub CLI. It can also be used as a tool for local repository backups by cloning repositories to your local machine.
+This script allows you to clone all GitHub repositories from the command line using GitHub CLI. It can also be used as a tool for local repository backups by cloning repositories to your local machine.
 
 ## Requirements
 
